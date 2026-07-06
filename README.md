@@ -118,6 +118,14 @@ After seeding, you can login with:
 - Email: admin@example.com
 - Password: admin123
 
+## License
+
+This project is licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## Models
 
 ### User
