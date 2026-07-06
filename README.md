@@ -9,10 +9,16 @@ Backend API for the Property Rental & Booking Platform.
 
 **🚀 Quick Links:**
 - [Setup Guide](#quick-setup) - Get started in 5 minutes
+- [MongoDB Atlas Setup](./MONGODB_SETUP.md) - Database configuration step-by-step
 - [Deployment Guide](./DEPLOYMENT.md) - Full deployment documentation
 - [API Documentation](#api-endpoints) - Available endpoints
 
 [![Deploy](https://vercel.com/button)](https://vercel.com/new)
+
+**📚 Setup Guides:**
+- [🍃 MongoDB Atlas Setup](./MONGODB_SETUP.md) - Step-by-step database setup
+- [⚙️ Environment Variables](./.env.production.example) - Configuration template
+- [🚀 Vercel Deployment](./DEPLOYMENT.md) - Deployment guide
 
 ## Features
 
