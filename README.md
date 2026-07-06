@@ -15,6 +15,8 @@ Backend API for the Property Rental & Booking Platform.
 
 [![Deploy](https://vercel.com/button)](https://vercel.com/new)
 
+**🌐 Deployed Server:** https://property-rental-server-alpha.vercel.app
+
 **📚 Setup Guides:**
 - [🍃 MongoDB Atlas Setup](./MONGODB_SETUP.md) - Step-by-step database setup
 - [💳 Stripe Setup](./STRIPE_SETUP.md) - Payment gateway configuration
