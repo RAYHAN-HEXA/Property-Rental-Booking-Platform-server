@@ -37,7 +37,32 @@ app.use(cookieParser());
 
 // Health check route
 app.get('/', (req, res) => {
-  res.json({ message: 'Property Rental API is running', status: 'active' });
+  res.json({
+    message: 'Property Rental API is running',
+    status: 'active',
+    environment: process.env.NODE_ENV || 'development',
+    timestamp: new Date().toISOString(),
+    version: '1.0.0'
+  });
+});
+
+// Detailed health check for monitoring
+app.get('/health', (req, res) => {
+  const health = {
+    status: 'healthy',
+    uptime: process.uptime(),
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || 'development',
+    memory: {
+      used: Math.round(process.memoryUsage().heapUsed / 1024 / 1024) + ' MB',
+      total: Math.round(process.memoryUsage().heapTotal / 1024 / 1024) + ' MB'
+    },
+    checks: {
+      api: 'ok',
+      database: process.env.MONGODB_URI ? 'configured' : 'missing'
+    }
+  };
+  res.json(health);
 });
 
 // API Routes
