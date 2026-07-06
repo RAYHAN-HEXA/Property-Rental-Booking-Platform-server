@@ -1,0 +1,13 @@
+# Code Owners
+
+# These owners will be the default owners for everything in the repo.
+* @RAYHAN-HEXA
+
+# These owners can approve changes to API routes
+/src/routes/ @RAYHAN-HEXA
+
+# These owners can approve changes to models
+/src/models/ @RAYHAN-HEXA
+
+# These owners can approve changes to middleware
+/src/middlewares/ @RAYHAN-HEXA
