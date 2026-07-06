@@ -7,6 +7,13 @@ Backend API for the Property Rental & Booking Platform.
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-brightgreen.svg)](https://mongodb.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+**🚀 Quick Links:**
+- [Setup Guide](#quick-setup) - Get started in 5 minutes
+- [Deployment Guide](./DEPLOYMENT.md) - Full deployment documentation
+- [API Documentation](#api-endpoints) - Available endpoints
+
+[![Deploy](https://vercel.com/button)](https://vercel.com/new)
+
 ## Features
 
 - JWT authentication with role-based access control
@@ -87,12 +94,40 @@ ADMIN_EMAIL=admin@example.com
 ADMIN_PASSWORD=admin123
 ```
 
-## Installation
+## Quick Setup
+
+Get your server running in 5 minutes with [SETUP.md](./SETUP.md) or follow these steps:
+
+### 1. Clone & Install
 
 ```bash
-cd server
+git clone https://github.com/RAYHAN-HEXA/Property-Rental-Booking-Platform-server.git
+cd Property-Rental-Booking-Platform-server
 npm install
 ```
+
+### 2. Configure Environment
+
+```bash
+cp .env.example .env
+# Edit .env with your values
+```
+
+### 3. Run Locally
+
+```bash
+npm run dev
+```
+
+### 4. Deploy to Vercel
+
+```bash
+npm i -g vercel
+vercel login
+vercel
+```
+
+## Installation
 
 ## Running the Server
 
