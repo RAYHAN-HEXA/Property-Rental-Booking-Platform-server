@@ -2,6 +2,11 @@
 
 Backend API for the Property Rental & Booking Platform.
 
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org)
+[![Express](https://img.shields.io/badge/Express-4.x-lightgrey.svg)](https://expressjs.com)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-brightgreen.svg)](https://mongodb.com)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ## Features
 
 - JWT authentication with role-based access control
