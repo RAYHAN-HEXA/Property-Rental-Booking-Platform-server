@@ -38,3 +38,10 @@ out/
 # Temporary files
 *.tmp
 *.temp
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Claude
+.claude/
