@@ -17,6 +17,8 @@ Backend API for the Property Rental & Booking Platform.
 
 **📚 Setup Guides:**
 - [🍃 MongoDB Atlas Setup](./MONGODB_SETUP.md) - Step-by-step database setup
+- [💳 Stripe Setup](./STRIPE_SETUP.md) - Payment gateway configuration
+- [💰 Payment Integration Guide](./src/docs/PAYMENT_FLOW.md) - Payment flow documentation
 - [⚙️ Environment Variables](./.env.production.example) - Configuration template
 - [🚀 Vercel Deployment](./DEPLOYMENT.md) - Deployment guide
 
