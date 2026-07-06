@@ -104,6 +104,35 @@ npm run dev
 npm start
 ```
 
+## Vercel Deployment
+
+This project is configured for Vercel deployment.
+
+### Quick Deploy
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Login to Vercel
+vercel login
+
+# Deploy to Vercel
+vercel
+
+# Deploy to production
+vercel --prod
+```
+
+### Environment Variables on Vercel
+
+Set these in your Vercel project settings:
+
+- `MONGODB_URI` - Your MongoDB connection string
+- `JWT_SECRET` - Your JWT secret key
+- `STRIPE_SECRET_KEY` - Your Stripe secret key
+- `CLIENT_URL` - Your frontend URL
+
 ## Database Seeding
 
 To seed the database with sample data:
